@@ -1,0 +1,161 @@
+
+/******* nav */
+
+.navbar li {
+	display: inline;
+	font-size: 14px;
+	font-family: 'Work Sans', sans-serif;
+	margin: 5px;
+	padding: 40px
+}
+
+.navbar ul {
+	margin: 10px;
+	margin-top: 20px;
+	border-bottom: 1px black;
+}
+
+.left {
+	width: 80%;
+	float: left;
+}
+
+.navbar li:hover {
+	color: #9999ff;
+	font-size: 18px;
+	transition: .2s;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: black;
+}
+
+a:unvisited {
+	color: black;
+}
+
+/************* end nav ***********/
+
+
+.box h1 {
+	font-family: 'Work Sans', sans-serif;
+	text-align: center;
+	font-size: 90px;
+	margin-top: 80px;
+}
+
+.title {
+	font-family: 'Work Sans', sans-serif;
+	text-align: right;
+	font-size: 80px;
+	margin-top: 80px;
+	margin-right: 30px;
+}
+
+
+.text {
+	text-align: center;
+	font-size:30px;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+	margin: 0px 300px 0px 300px;
+}
+
+
+.res {
+	margin: 40px 200px 40px 100px;
+	text-align: left;
+	font-size:50px;
+	font-family: 'Work Sans', sans-serif;
+	color: #9999ff;
+}
+
+.aboutimg {
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 30px;
+	border: 1px black;
+	border-radius: 50%;
+
+}
+
+.mail {
+	margin: 40px 200px 20px 100px;
+	text-align: left;
+	font-size:30px;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+	border: solid #9999ff 1px;
+	width: 40%;
+	padding: 10px;
+}
+
+.pictures img{
+	margin-left: 40px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 25%;
+
+}
+
+.coverimg img{
+	width: 30%;
+	margin-left: 10px;
+	margin-top: 30px;
+	border-radius: 50%;
+	margin: 5% 25% 5% 35%;
+}
+
+.cityline  img{
+	width: 90%;
+	margin-left: 50px;
+	margin-top: 30px;
+}
+
+/* Mobile view */
+
+@media screen and (max-width: 600px) {
+
+	.navbar li {
+	display: block;
+	font-size: 20px;
+}
+
+	.pictures img {
+		width: 50%;
+		margin-left: 20%;
+	}
+
+	.text {
+	text-align: center;
+	margin: 0px 100px 0px 100px;
+}
+
+	.cityline {
+		width: 100%;
+		margin-left: 0px;
+	}
+
+	.coverimg {
+		width: 100%;
+		height: 100%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+/* Mobile view */
+
+
+
